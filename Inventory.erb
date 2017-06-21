@@ -25,6 +25,7 @@ openshift_deployment_type=origin
 openshift_master_cluster_method=native
 openshift_master_cluster_hostname=openshift-cluster.beans.com
 openshift_master_cluster_public_hostname=openshift-cluster.beans.com
+openshift_disable_check=memory_availability
 
 # apply updated node defaults
 openshift_node_kubelet_args={'pods-per-core': ['10'], 'max-pods': ['250'], 'image-gc-high-threshold': ['90'], 'image-gc-low-threshold': ['80']}
